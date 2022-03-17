@@ -1,0 +1,9 @@
+@import "../../utilities/variables";
+
+.homepage {
+  .background-notch {
+    height: 90vh;
+    width: 100%;
+    background: $mainbg-color;
+  }
+}

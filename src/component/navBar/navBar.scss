@@ -1,0 +1,29 @@
+@import "../../utilities/variables";
+
+.form-nav {
+    height: 50px;
+    background: $bg-color;
+    display: flex;
+    justify-content: flex-end;
+    .nav-content {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        p {
+            color: $dark-text-color;
+        }
+        a {
+            text-decoration: none;
+            margin-left: 1rem;
+            border-radius: 93% 7% 7% 93% / 45% 45% 55% 55% ;
+            padding: 9px 10px 9px 20px;
+            background: $invertedbg-color;
+            color: $navlink-color;
+            transition: .5s;
+            &:hover {
+                border-radius: 8% 92% 92% 8% / 45% 48% 52% 55%;
+                padding: 9px 20px 9px 10px;
+            }
+        }
+    }
+}

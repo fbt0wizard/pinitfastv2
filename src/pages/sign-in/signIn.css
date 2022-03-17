@@ -1,0 +1,207 @@
+.login-wrapper {
+  height: calc(100vh - 50px);
+  background: #000e14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-wrapper .centered-div {
+  width: 400px;
+}
+
+.login-wrapper .centered-div .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-wrapper .centered-div .logo-container img {
+  margin: .5rem 0;
+  width: 88px;
+}
+
+.login-wrapper .centered-div .login .tittle {
+  text-align: center;
+  margin: .5rem 0;
+}
+
+.login-wrapper .centered-div .login .tittle h2 {
+  color: #b3b7ba;
+}
+
+.login-wrapper .centered-div .login form .input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-wrapper .centered-div .login form .input-div input {
+  width: 70%;
+  padding: 0 5px;
+  margin: .7rem auto;
+  background: #2c2c2c;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.login-wrapper .centered-div .login form .input-div input:focus {
+  outline: none;
+  padding: 0 5px;
+  color: #b3b7ba;
+}
+
+.login-wrapper .centered-div .login form .input-div input::after {
+  background: red;
+}
+
+.login-wrapper .centered-div .login form .forget-pass {
+  text-align: center;
+  margin: .4rem 0;
+}
+
+.login-wrapper .centered-div .login form .forget-pass p {
+  color: #b3b7ba;
+  font-size: 13px;
+}
+
+.login-wrapper .centered-div .login form .forget-pass p a {
+  text-decoration: none;
+}
+
+.login-wrapper .centered-div .login form .enter-button {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.login-wrapper .centered-div .login form .enter-button .button {
+  width: 110px;
+  height: 40px;
+  padding: 2.5px;
+  margin: 0 auto;
+  border-radius: 4px;
+  cursor: pointer;
+  background: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(#ffd300), color-stop(#6bff00), to(#004dff));
+  background: linear-gradient(270deg, #ff0000, #ffd300, #6bff00, #004dff);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+.login-wrapper .centered-div .login form .enter-button .button:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ff1f00), color-stop(#ffd300), color-stop(#98ff00), to(#0064ff));
+  background: linear-gradient(270deg, #ff1f00, #ffd300, #98ff00, #0064ff);
+  background-size: 800% 800%;
+  -webkit-animation: HoverAnime 7s ease infinite;
+  animation: HoverAnime 7s ease infinite;
+}
+
+.login-wrapper .centered-div .login form .enter-button .button .real-button {
+  padding: 6px 0;
+  height: 100%;
+  width: 100%;
+  background: #000e14;
+  color: #b3b7ba;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.login-wrapper .centered-div .login button {
+  display: none;
+}
+
+.pass-view {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.pass-view input {
+  width: 100% !important;
+}
+
+.pass-view .eye-icon {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  right: 3px;
+  top: 15px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap p {
+  color: red;
+  margin-left: .4rem;
+  font-size: 14px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes HoverAnime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes HoverAnime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=signIn.css.map */

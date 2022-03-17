@@ -1,0 +1,21 @@
+@import "../../utilities/variables";
+
+.validating {
+    width: 70%;
+    margin: 0 auto;
+}
+.correct {
+    color: green;
+}
+.wrong {
+    color: red;
+}
+.waiting-to-validate {
+    display: flex;
+    align-items: center;
+    p {
+        color: $invertedbg-color;
+        font-size: 13px;
+        margin-left: .4rem;
+    }
+}

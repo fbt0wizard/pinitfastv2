@@ -1,0 +1,155 @@
+@import "../../utilities/variables";
+
+.login-wrapper {
+    height: calc(100vh - 50px);
+    background: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .centered-div {
+        width: 400px;
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            img {
+                margin: .5rem 0;
+                width: 88px;
+            }
+        }
+        .login {
+            .tittle {
+                text-align: center;
+                margin: .5rem 0;
+                h2 {
+                    color: $dark-text-color;
+                }
+            }
+            form {
+                .input-div {
+                    display: flex;
+                    flex-direction: column;
+                    input {
+                        width: 70%;
+                        padding: 0 5px;
+                        margin: .7rem auto;
+                        background: $dark-chat-background2;
+                        border: none;
+                        height: 30px;
+                        border-radius: 3px;
+                        &:focus {
+                            outline: none;
+                            padding: 0 5px;
+                            color: $dark-text-color;
+                        }
+                        &::after {
+                            background: red;
+                        }
+                    }
+                }
+                .forget-pass {
+                    text-align: center;
+                    margin: .4rem 0;
+                    p {
+                        color: $dark-text-color;
+                        font-size: 13px;
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .enter-button {
+                    text-align: center;
+                    margin: 1rem auto;
+                    .button {
+                        width: 110px;
+                        height: 40px;
+                        padding: 2.5px;
+                        margin: 0 auto;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        background: linear-gradient(270deg, #ff0000, #ffd300, #6bff00, #004dff);
+                        background-size: 800% 800%;                  
+                        -webkit-animation: AnimationName 59s ease infinite;
+                        -moz-animation: AnimationName 59s ease infinite;
+                        animation: AnimationName 59s ease infinite;
+                        &:hover {
+                            background: linear-gradient(270deg, #ff1f00, #ffd300, #98ff00, #0064ff);
+                            background-size: 800% 800%;                       
+                            -webkit-animation: HoverAnime 7s ease infinite;
+                            -moz-animation: HoverAnime 7s ease infinite;
+                            animation: HoverAnime 7s ease infinite;
+                        }
+                        .real-button {
+                            padding: 6px 0;
+                            height: 100%;
+                            width: 100%;
+                            background: $bg-color;
+                            color: $dark-text-color;
+                            font-size: 17px;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+            button {
+                display: none;
+            }
+        }
+    }
+}
+.pass-view {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    input {
+        width: 100% !important;
+    }
+    .eye-icon {
+        position: absolute;
+        cursor: pointer;
+        z-index: 10;
+        right: 3px;
+        top: 15px;
+    }
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    p {
+        color: red;
+        margin-left: .4rem;
+        font-size: 14px;
+    }
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes HoverAnime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes HoverAnime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes HoverAnime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

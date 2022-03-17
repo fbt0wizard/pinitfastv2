@@ -1,0 +1,82 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  background: red;
+}
+
+.ReactModal__Overlay {
+  background-color: #00000063 !important;
+}
+
+.my-modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  background: none;
+  border-radius: 4px;
+  outline: none;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-height: 50vh;
+  width: 90%;
+  max-width: 600px;
+}
+
+.react-confirm-alert-overlay {
+  background: #000e14d1 !important;
+}
+
+.react-confirm-alert-body {
+  background: #000e14 !important;
+}
+
+.react-confirm-alert-body button {
+  background: #008bc4 !important;
+}
+
+.alert-error {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.processing {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  height: 4px;
+  background: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(#ffc800), color-stop(#adfc00), to(#006efc));
+  background: linear-gradient(270deg, #ff0000, #ffc800, #adfc00, #006efc);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*# sourceMappingURL=dashboard.css.map */

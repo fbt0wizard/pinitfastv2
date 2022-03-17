@@ -1,0 +1,41 @@
+.form-nav {
+  height: 50px;
+  background: #000e14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.form-nav .nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 1rem;
+}
+
+.form-nav .nav-content p {
+  color: #b3b7ba;
+}
+
+.form-nav .nav-content a {
+  text-decoration: none;
+  margin-left: 1rem;
+  border-radius: 93% 7% 7% 93% / 45% 45% 55% 55%;
+  padding: 9px 10px 9px 20px;
+  background: #008bc4;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.form-nav .nav-content a:hover {
+  border-radius: 8% 92% 92% 8% / 45% 48% 52% 55%;
+  padding: 9px 20px 9px 10px;
+}
+/*# sourceMappingURL=navBar.css.map */

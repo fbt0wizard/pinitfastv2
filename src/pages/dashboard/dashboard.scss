@@ -1,0 +1,41 @@
+@import "../../utilities/variables";
+
+.react-confirm-alert-overlay {
+    background: $overlay-background !important;
+}
+.react-confirm-alert-body {
+    background: $bg-color !important;
+    button {
+        background: $invertedbg-color !important;
+    }
+}
+.alert-error {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.processing {
+    transition: all .3s ease-in-out;
+    height: 4px;
+    background: linear-gradient(270deg, #ff0000, #ffc800, #adfc00, #006efc);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

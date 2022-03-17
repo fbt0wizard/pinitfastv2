@@ -1,0 +1,46 @@
+import backgroundImgData from '../pages/dashboard/bg.png';
+import lightBackgroundImgData from '../pages/dashboard/light.png';
+export const LightTheme = {
+  bodyColor: "#fff",
+  color: "#000",
+  dashboardNavBackground: "#172765",
+  hamburger: "#000",
+  inputBackground: "#172765",
+  textAreaBackground: "#fff",
+  pinButtonColor: "#008bc4",
+  chatBackground: "#fff",
+  chatDivider: "#008bc4",
+  senderColor: "#333",
+  backgroundImg: `url(${lightBackgroundImgData})`,
+  modalBackground: '#ffffff3b',
+  modalContentBg: '#fff',
+  shareInputColor: '#000',
+  navLinkColor: '#fff',
+  themeIcon: '#fff',
+  mobileThemeIcon: '#000',
+  mobileMenuBg: '#fff',
+  mobileNavLinkColor: "#1c1c1c",
+
+  };
+
+export const darkTheme = {
+  bodyColor: "#000",
+  color: "#fff",
+  dashboardNavBackground: "#2c2c2c",
+  hamburger: "#b3b7ba",
+  inputBackground: "#2c2c2c",
+  textAreaBackground: "#1c1c1c",
+  pinButtonColor: "#008bc4",
+  chatBackground: "#272727",
+  chatDivider: "#008bc4",
+  senderColor: "#008bc4",
+  backgroundImg: `url(${backgroundImgData})`,
+  modalBackground: '#0000005e',
+  modalContentBg: '#000e14',
+  shareInputColor: '#000',
+  navLinkColor: '#fff',
+  themeIcon: '#ffee30',
+  mobileThemeIcon: '#ffee30',
+  mobileMenuBg: '#018bc4',
+  mobileNavLinkColor: "#fff",
+};
